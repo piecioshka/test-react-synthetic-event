@@ -1,0 +1,27 @@
+body {
+  font-family: Lato;
+}
+
+.search-input {
+  margin: 10px;
+  padding: 5px;
+}
+
+.results {
+  margin-top: 10px;
+}
+
+.no-results {
+  background: #ea4457;
+  color: white;
+  padding: 10px;
+}
+
+.result-row {
+  margin-bottom: 10px;
+}
+
+.product-photo {
+  float: left;
+  margin-right: 10px;
+}
