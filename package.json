@@ -1,12 +1,13 @@
 {
   "private": true,
-  "name": "react",
+  "name": "react-synthetic-event-problem",
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d build/"
   },
   "dependencies": {
     "lodash-es": "^4.17.21",
@@ -14,6 +15,8 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0",
     "react-scripts": "latest"
   },
   "browserslist": {

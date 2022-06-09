@@ -1,3 +1,5 @@
 # react-synthetic-event-problem
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-synthetic-event-problem)
+## Demo 🎉
+
+<https://piecioshka.github.io/react-synthetic-event-problem/>
