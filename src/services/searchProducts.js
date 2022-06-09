@@ -1,4 +1,4 @@
-const PRODUCTS_URL = 'https://fakes.herokuapp.com/products/';
+const PRODUCTS_URL = "https://fakes.herokuapp.com/products/";
 
 async function makeRequest(url) {
   const response = await fetch(url);
@@ -6,7 +6,7 @@ async function makeRequest(url) {
 }
 
 export async function searchProducts(phrase) {
-  console.log('searchProducts', phrase);
+  console.log("searchProducts", phrase);
   const url = `${PRODUCTS_URL}?q=${phrase}`;
   return makeRequest(url);
 }

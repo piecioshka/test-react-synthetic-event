@@ -1,11 +1,11 @@
-import React, { useRef, useState, useCallback } from 'react';
-import { searchProducts } from '../services/searchProducts';
-import { debounce } from 'lodash-es';
+import React, { useRef, useState, useCallback } from "react";
+import { debounce } from "lodash-es";
+import { searchProducts } from "../services/searchProducts";
 
 const SUPPORT_DEBOUNCE = true;
 
 export function Search() {
-  const input = useRef();
+  const input = useRef(null);
   const [results, setResults] = useState([]);
   const [showEmptyMessage, updateDisplayingEmptyMessage] = useState(false);
 
@@ -26,7 +26,7 @@ export function Search() {
 
   const keyDownHandler = useCallback((evt) => {
     const value = getValue();
-    if (evt.key === 'Enter' && value.length > 0) {
+    if (evt.key === "Enter" && value.length > 0) {
       setResults([]);
       if (SUPPORT_DEBOUNCE) {
         debouncedUpdateProducts(value);
