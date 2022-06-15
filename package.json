@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-synthetic-event-problem",
+  "name": "test-react-synthetic-event",
   "version": "0.0.0",
   "scripts": {
     "start": "react-scripts start",
