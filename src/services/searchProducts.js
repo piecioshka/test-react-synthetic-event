@@ -1,4 +1,4 @@
-const PRODUCTS_URL = "https://fakes.herokuapp.com/products/";
+const PRODUCTS_URL = "https://fakes.piecioshka.io/products/";
 
 async function makeRequest(url) {
   const response = await fetch(url);
