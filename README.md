@@ -2,6 +2,6 @@
 
 :ledger: Test React.js app Synthetic Event
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-react-synthetic-event/>
